@@ -1,6 +1,6 @@
 import type { Product } from "./types";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_URL = import.meta.env.VITE_API_URL ?? "https://kartify-1-pox4.onrender.com";
 const token = () => localStorage.getItem("kartify_token");
 
 export type Account = { id: number; name: string; email: string; is_admin: boolean };
