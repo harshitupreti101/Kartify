@@ -151,6 +151,8 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -207,6 +209,11 @@ tempCodeRunnerFile.py
 
 # Ruff stuff:
 .ruff_cache/
+
+# Local Kartify SQLite database
+backend/kartify.db
+backend/kartify.db-*
+node_modules/
 
 # PyPI configuration file
 .pypirc
